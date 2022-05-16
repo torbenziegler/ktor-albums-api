@@ -1,7 +1,5 @@
 package de.torben.ziegler.data.model
 
-import de.torben.ziegler.utils.Constants
-
 @kotlinx.serialization.Serializable
 data class Album(
     val name: String,
@@ -18,7 +16,7 @@ object Albums {
             "Rodeo",
             "Travis Scott",
             2015,
-            "${Constants.BASE_URL}/album_covers/rodeo.jpg",
+            "/static/album_covers/rodeo.jpg",
             listOf(
                 "#593a28",
                 "#313a34",
@@ -50,7 +48,7 @@ object Albums {
             "Birds In The Trap Sing McKnight",
             "Travis Scott",
             2016,
-            "${Constants.BASE_URL}/album_covers/birds.jpg",
+            "/static/album_covers/birds.jpg",
             listOf(
                 "#242d3d",
                 "#b97c78",
@@ -79,7 +77,7 @@ object Albums {
             "ASTROWORLD",
             "Travis Scott",
             2018,
-            "${Constants.BASE_URL}/album_covers/astroworld.jpg",
+            "/static/album_covers/astroworld.jpg",
             listOf(
                 "#b08854",
                 "#6baada",
@@ -111,7 +109,7 @@ object Albums {
             "JACKBOYS",
             "Travis Scott",
             2019,
-            "${Constants.BASE_URL}/album_covers/jackboys.jpg",
+            "/static/album_covers/jackboys.jpg",
             listOf(
                 "#5c4e0c",
                 "#98657b",
@@ -133,7 +131,7 @@ object Albums {
             "Un Verano Sin Ti",
             "Bad Bunny",
             2022,
-            "${Constants.BASE_URL}/album_covers/unveranosinti.jpg",
+            "/static/album_covers/unveranosinti.jpg",
             null,
             listOf(
                 Song("Moscow Mule", "4:05"),
