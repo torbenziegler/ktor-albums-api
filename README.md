@@ -1,4 +1,4 @@
-## Ktor Albums REST API
+# Ktor Albums REST API (Work in progress)
 
 Ktor was used to create this simple REST API
 
@@ -8,11 +8,13 @@ Ktor was used to create this simple REST API
 - Routing
 - Monitoring
 
-> The api can be run locally in an IDE of your choice or within a docker container. Dockerfile is available in the /REST API directory.
+> The api can be run locally in an IDE of your choice or within a docker container. [Dockerfile](https://github.com/torbenziegler/ktor-albums-api/blob/main/Dockerfile) is available in the root directory.
 
-### Endpoints
+## Endpoints
 
-Possible available endpoints:
+:grey_exclamation: **API is reachable with base url of https://ktor-albums-api-bgo52.ondigitalocean.app**
+
+_Possible available endpoints:_
 
 ``` kotlin
 /randomalbum // retrieve one random album
@@ -95,3 +97,8 @@ Sample response:
   ]
 }
 ```
+
+## TODO
+
+- Add crawler script to collect music data
+- Move data to database
