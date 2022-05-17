@@ -29,7 +29,7 @@ Sample response:
   "name": "Birds In The Trap Sing McKnight",
   "artist": "Travis Scott",
   "releaseYear": 2016,
-  "imageUrl": "http://192.168.0.102:8100/album_covers/birds.jpg",
+  "imageUrl": "/static/album_covers/birds.jpg",
   "dominantColors": [
     "#242d3d",
     "#b97c78",
