@@ -158,6 +158,99 @@ object Albums {
                 Song("Agosto", "2:19"),
                 Song("Callaita", "4:10")
             )
-        )
+        ),
+        Album(
+            "THE ALBUM",
+            "BLACKPINK",
+            2020,
+            "https://i.scdn.co/image/ab67616d0000b2731895052324f123becdd0d53d",
+            null,
+            listOf(
+                Song("How You Like That", "3:00"),
+                Song("Ice Cream (with Selena Gomez)", "2:55"),
+                Song("Pretty Savage", "3:19"),
+                Song("Bet You Wanna (Feat. Cardi B)", "2:39"),
+                Song("Lovesick Girls", "3:12"),
+                Song("Crazy Over You", "2:41"),
+                Song("Love To Hate Me", "2:49"),
+                Song("You Never Know", "3:49")
+            )
+        ),
+        Album(
+            "Rare",
+            "Selena Gomez",
+            2020,
+            "https://i.scdn.co/image/ab67616d0000b273b7526adff151e584dad4229d",
+            null,
+            listOf(
+                Song("Rare", "3:40"),
+                Song("Dance Again", "2:50"),
+                Song("Look At Her Now", "2:42"),
+                Song("Lose You To Love Me", "3:26"),
+                Song("Ring", "2:28"),
+                Song("Vulnerable", "3:12"),
+                Song("People You Know", "3:14"),
+                Song("Let Me Get Me", "3:9"),
+                Song("Crowded Room (feat. 6LACK)", "3:6"),
+                Song("Kinda Crazy", "3:32"),
+                Song("Fun", "3:9"),
+                Song("Cut You Off", "3:2"),
+                Song("A Sweeter Place (feat. Kid Cudi)", "4:23")
+            )
+        ),
+        Album(
+            "Amor Prohibido",
+            "Selena",
+            1994,
+            "https://i.scdn.co/image/ab67616d0000b273c26a4f2195b3ecf63d2a30ae",
+            null,
+            listOf(
+                Song("Amor Prohibido", "2:52"),
+                Song("No Me Queda Más", "3:20"),
+                Song("Cobarde", "2:52"),
+                Song("Fotos Y Recuerdos", "2:37"),
+                Song("El Chico Del Apartamento 512", "3:28"),
+                Song("Bidi Bidi Bom Bom - 1994 Version", "3:30"),
+                Song("Techno Cumbia", "3:47"),
+                Song("Tus Desprecios", "3:25"),
+                Song("Si Una Vez", "2:47"),
+                Song("Ya No", "3:55"),
+                Song("Donde Quiera Que Estés", "4:33"),
+                Song("Spoken Liner Notes By The Band And Family", "24:3"),
+            )
+        ),
+        Album("Dangerous Woman", "Ariana Grande", 2016, "https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5", null, listOf(
+            Song("Moonlight", "3:22"),
+            Song("Dangerous Woman", "3:55"),
+            Song("Be Alright", "2:59"),
+            Song("Into You", "4:4"),
+            Song("Side To Side", "3:46"),
+            Song("Let Me Love You", "3:43"),
+            Song("Greedy", "3:34"),
+            Song("Leave Me Lonely", "3:49"),
+            Song("Everyday", "3:14"),
+            Song("Sometimes", "3:46"),
+            Song("I Don't Care", "2:58"),
+            Song("Bad Decisions", "3:46"),
+            Song("Touch It", "4:20"),
+            Song("Knew Better / Forever Boy", "4:59"),
+            Song("Thinking Bout You", "3:20"),
+        )),
+        Album("Positions", "Ariana Grande", 2020, "https://i.scdn.co/image/ab67616d0000b2736484dfce3cc12e68d8aa2e55", null, listOf(
+            Song("shut up", "2:37"),
+            Song("34+35", "2:53"),
+            Song("motive (with Doja Cat)", "2:47"),
+            Song("just like magic", "2:29"),
+            Song("off the table (with The Weeknd)", "3:59"),
+            Song("six thirty", "3:3"),
+            Song("safety net (feat. Ty Dolla \$ign)", "3:28"),
+            Song("my hair", "2:38"),
+            Song("nasty", "3:20"),
+            Song("west side", "2:12"),
+            Song("love language", "2:59"),
+            Song("positions", "2:52"),
+            Song("obvious", "2:26"),
+            Song("pov", "3:21"),
+        ))
     )
 }
