@@ -10,6 +10,10 @@ Ktor was used to create this simple REST API
 
 > The api can be run locally in an IDE of your choice or within a docker container. [Dockerfile](https://github.com/torbenziegler/ktor-albums-api/blob/main/Dockerfile) is available in the root directory.
 
+## Architecture
+
+<img src="https://github.com/torbenziegler/ktor-albums-api/blob/main/Images/architecture.png" />
+
 ## Endpoints
 
 :grey_exclamation: **API is reachable with base url of https://ktor-albums-api-bgo52.ondigitalocean.app**
